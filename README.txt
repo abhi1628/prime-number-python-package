@@ -1,4 +1,4 @@
-This is an efficient prime number tester program created to check if the given number is a prime number or not.
+This is an efficient prime number tester program created to check if the given number is a prime number or not. The file is availabe on https://pypi.org/project/abhiprime/#files
 =============================================================================================================================================================================
 Steps to use:
 Open the code editor like jupyter or google colab where you can install packages. Like in Jupyter type- !pip install abhiprime
@@ -12,3 +12,4 @@ If you get ModuleNotFoundError (It may happen if you install via command prompt)
 You can also install via github:
 Step 1: git clone https://github.com/abhi1628/prime-number-python-package.git
 Step 2: sudo python setup.py install
+===============================================================================================================================================================================
