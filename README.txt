@@ -1,0 +1,1 @@
+This is an efficient prime number tester program created to check if the given number is a prime number or not.
