@@ -1,3 +1,7 @@
+'''You have to write your code here
+This is a sample code
+Put your function here without driver code'''
+
 import math
 def test_prime(n):
     if n <= 0:
@@ -6,6 +10,8 @@ def test_prime(n):
         return(n,'is not prime number')
     if (n==2):
         return('2 is a prime number')
+    if n > 2 and n % 2 == 0:
+        return(n,'is not prime number')
     x = math.floor(math.sqrt(n))
     for x in range(3,x+1,2):
         if(n % x==0):
