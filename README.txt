@@ -9,7 +9,22 @@ Now type- abhiprime.test_prime(any number which you want to check)
 If you are using alias name for abhiprime then type- ap.test_prime(any number which you want to check)
 If you get ModuleNotFoundError (It may happen if you install via command prompt), then make sure that path specified for python is correct and is added in environment path variable.
 =================================================================================================================================================================================
-You can also install via github:
-Step 1: git clone https://github.com/abhi1628/prime-number-python-package.git
-Step 2: sudo python setup.py install
-===============================================================================================================================================================================
+If you are already using abhiprime then please upgrade it, using 
+
+pip install --upgrade abhiprime
+
+If upgradation is throwing error, then uninstall the previous version and install the latest version.
+
+After upgradation, type
+
+import abhiprime as ap. 
+
+Now you can use it to check the following operations:
+
+ap.test_prime(n)- This is an efficient prime number tester program created to check if the given number is a prime number or not.
+ap.prev_prime(n)- used to give the just previous prime number value from the given number n.
+ap.next_prime(n)- used to give the just next prime number value from the given number n. 
+ap.prime_upto(n)- gives a list of prime numbers upto the given number n.
+ap.range_prime(n,m)- gives a list of prime numbers between numbers n and m.
+ap.fib_prime(n)- gives a list of numbers which are prime and fibonacci also.
+================================================================================================================================================================================
