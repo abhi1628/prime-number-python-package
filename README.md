@@ -51,4 +51,5 @@ ap.next_prime(n)- used to give the just next prime number value from the given n
 ap.prime_upto(n)- gives a list of prime numbers upto the given number n.
 ap.range_prime(n,m)- gives a list of prime numbers between numbers n and m.
 ap.fib_prime(n)- gives a list of numbers which are prime and fibonacci also.
+ap.prime_factor(n)- gives a list of all prime factors of a given number.
 ```
