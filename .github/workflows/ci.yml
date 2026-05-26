@@ -35,6 +35,7 @@ jobs:
         flake8 abhiprime tests --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
     - name: Type check with mypy
+      if: matrix.python-version >= '3.10'
       run: mypy abhiprime --ignore-missing-imports
 
     - name: Test with pytest
