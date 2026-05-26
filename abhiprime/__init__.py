@@ -13,7 +13,7 @@ Features:
 - CLI interface
 """
 
-__version__ = "2.0.0"
+__version__ = "7.0.0"
 __author__ = "abhi1628"
 
 from .core import (
